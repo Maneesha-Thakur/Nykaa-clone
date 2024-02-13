@@ -20,8 +20,8 @@ app.use('/',router);
 
 const PORT= 8000; 
   
-Connection()
 app.listen(PORT, () => {
+    Connection();
     console.log(`Server is running on ${PORT}`)
 })
 
